@@ -1,0 +1,10 @@
+For AWS Hosting Follow Steps
+Step-1=https://medium.com/@rahul26021999/how-to-create-a-ubuntu-20-04-server-on-aws-ec2-elastic-cloud-computing-5b423b5bf635(link)
+
+Step-2=step 2:
+https://medium.com/@rahul26021999/how-to-connect-to-ec2-instance-aws-from-windows-ubuntu-da97c0cc9c8(link)
+
+Step-3=step 3:
+https://medium.com/@rahul26021999/how-to-deploy-laravel-project-on-ec2-aws-6d004a57bb1f(link)
+
+Step-5=https://medium.com/@rahul26021999/how-to-create-a-ubuntu-20-04-server-on-aws-ec2-elastic-cloud-computing-5b423b5bf635(link)

@@ -1,0 +1,10 @@
+==Nasted Query==
+1.SELECT * FROM users inner join teachers on users.id=teachers.user_id where users.id=(select id from users where username="mysir" and password="e10adc3949ba59abbe56e057f20f883e")
+
+2. How to provide log access
+Step1-ConfigFile-Step-2-Config.php-Step-3-$config['log_threshold'] = 4;
+
+3.In Php Controller First Chareter Is Must be Capital.
+4.Koi bhi table mai inner join kar ke single column chahiye to * nahi lagana hai or table_name.column_name dena hai .
+Syntax:
+->select user_post.id, user_post.user_id, user_post.media,user_post.media_type,user_post.description,user_post.status, students.id as student_id,students.name,students.photo from user_post INNER JOIN users ON users.id=user_post.user_id INNER JOIN students ON users.id=students.user_id where  user_post.status=1 ORDER BY user_post.id DESC

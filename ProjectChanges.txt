@@ -1,0 +1,27 @@
+Changes=>
+In Human Resource mai-
+=salary_salary_type ko comment kiya hai null jane ke liye,
+=Joki vo page hai SchoolManagement\application\modules\hrm\controllers\Employee.php 
+mai hai.
+
+
+Compair 1:=>
+1:Library-Issue & Return-New Issue mai Library Member mai data nahi aaraha;
+2:Library-Issue & Return-New Issue mai Class add kiye.
+
+
+Compair 2:=>
+1:Accounting-Paid Receipt-(mai filter ke time student select karte time all student to aa raha but single student nahi aa raha).
+2:Accounting-Paid Receipt-(usake model mai se (// $this->db->where('E.student_id', $student_id) ye vali condition se single data nahi aa raha tha).
+
+***Jo karna hai abhi add***
+->class_id add karna hai Book mai (admin panel mai)kyuki api mai need thi.
+		OR
+->Admin panel mai book_issue mai teacher_id ko add karna hai.
+
+
+5.Admin Panel ke Book mai class nahi tha vaha class add kiya.
+-insert bhi karaya. 
+
+->Complain table mai teacher_id add kiya hai.
+->Gallery_Image Table mai gallery_id ko null kiya
